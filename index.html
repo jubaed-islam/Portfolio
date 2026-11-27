@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jubaed Islam — GIS, Remote Sensing &amp; Urban Planning Researcher</title>
+<meta name="description" content="Jubaed Islam is an undergraduate researcher in Urban and Regional Planning at CUET, Bangladesh, working on geospatial flood, drought and urban-growth risk assessment.">
+<meta name="theme-color" content="#0f2a3d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jubaed Islam — Geospatial Researcher">
+<meta property="og:description" content="GIS, remote sensing, disaster risk and urban resilience research in Bangladesh.">
+<meta property="og:image" content="assets/profile.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a3d'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23f2b84b' text-anchor='middle'%3EJI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jubaed Islam","jobTitle":"Undergraduate Researcher","email":"mailto:islamjubaed01@gmail.com","affiliation":{"@type":"CollegeOrUniversity","name":"Chittagong University of Engineering and Technology"},"sameAs":["https://orcid.org/0009-0000-7950-2107","https://www.linkedin.com/in/jubaed-islam-587213354"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#home"><span class="mark">JI</span><span>Jubaed Islam</span></a>
+    <nav id="menu" aria-label="Main"></nav>
+    <div class="nav-act">
+      <button class="icon-btn" id="theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="home" class="hero" data-nav="Home">
+  <svg class="contours" aria-hidden="true" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" id="contours"></svg>
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="coord mono"><i class="fa-solid fa-location-crosshairs"></i> 22.46° N · 91.97° E — Chattogram, Bangladesh</p>
+      <h1>Jubaed Islam</h1>
+      <p class="role">Undergraduate Researcher · Urban &amp; Regional Planning<br>GIS &amp; Remote Sensing for disaster risk and urban resilience</p>
+      <p class="lede">I use satellite imagery, spatial statistics and data-driven weighting to map flood, drought and waterlogging risk, and to model how cities in Bangladesh grow.</p>
+      <div class="btns">
+        <a class="btn primary" href="#research"><i class="fa-solid fa-layer-group"></i> View research</a>
+        <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+      </div>
+      <ul class="hero-links" id="heroLinks"></ul>
+    </div>
+    <figure class="portrait">
+      <img src="assets/profile.jpg" alt="Portrait of Jubaed Islam" width="420" height="420">
+      <figcaption class="mono">BURP · CUET</figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <dl class="stats" id="stats"></dl>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec" data-nav="About">
+  <div class="wrap two">
+    <header class="sec-head"><span class="num mono">01</span><h2>About</h2></header>
+    <div class="prose reveal">
+      <p>I am a Level 3, Term 2 student in the Bachelor of Urban and Regional Planning (BURP) programme at <strong>Chittagong University of Engineering and Technology (CUET)</strong>, Bangladesh.</p>
+      <p>My research sits where geospatial science meets planning practice. I combine satellite remote sensing, spatial statistics and multi-criteria weighting methods such as PCA, Shannon entropy and AHP to build composite risk indices, assess flood, drought and waterlogging hazard, and simulate urban growth and land-use change across Bangladesh.</p>
+      <p>I am open to research collaborations, assistantships and graduate study opportunities in GIS, remote sensing, disaster risk reduction and climate-resilient planning.</p>
+      <h3 class="mini">Research interests</h3>
+      <ul class="chips" id="interests"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="sec alt" data-nav="Research">
+  <div class="wrap">
+    <header class="sec-head row"><div><span class="num mono">02</span><h2>Research Projects</h2></div><div class="filters" id="projFilters" role="group" aria-label="Filter projects"></div></header>
+    <div class="proj-grid" id="projList"></div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" class="sec" data-nav="Publications">
+  <div class="wrap">
+    <header class="sec-head row"><div><span class="num mono">03</span><h2>Publications</h2></div><div class="filters" id="pubFilters" role="group" aria-label="Filter publications"></div></header>
+    <ol class="pubs" id="pubList"></ol>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec alt" data-nav="Skills">
+  <div class="wrap">
+    <header class="sec-head"><span class="num mono">04</span><h2>Technical Skills</h2></header>
+    <div class="skill-grid" id="skillGrid"></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec" data-nav="Education">
+  <div class="wrap two">
+    <header class="sec-head"><span class="num mono">05</span><h2>Education</h2></header>
+    <ol class="timeline reveal" id="eduList"></ol>
+  </div>
+</section>
+
+<!-- CERTIFICATES (auto-hidden when empty) -->
+<section id="certificates" class="sec alt" data-nav="Certificates" hidden>
+  <div class="wrap">
+    <header class="sec-head"><span class="num mono">·</span><h2>Certificates &amp; Training</h2></header>
+    <div class="cert-grid" id="certGrid"></div>
+  </div>
+</section>
+
+<!-- AWARDS (auto-hidden when empty) -->
+<section id="awards" class="sec" data-nav="Awards" hidden>
+  <div class="wrap two">
+    <header class="sec-head"><span class="num mono">·</span><h2>Awards</h2></header>
+    <ul class="awards reveal" id="awardList"></ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec contact" data-nav="Contact">
+  <div class="wrap contact-in">
+    <div>
+      <span class="num mono">06</span>
+      <h2>Let’s work together</h2>
+      <p>Open to research collaboration, assistantships and academic opportunities. The quickest way to reach me is by email.</p>
+      <a class="btn primary lg" href="mailto:islamjubaed01@gmail.com"><i class="fa-solid fa-envelope"></i> islamjubaed01@gmail.com</a>
+    </div>
+    <ul class="social" id="social"></ul>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>© <span id="yr"></span> Jubaed Islam · Department of Urban and Regional Planning, CUET</p>
+    <a href="#home" class="mono">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+  <button class="icon-btn" id="lbClose" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+  <img id="lbImg" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
